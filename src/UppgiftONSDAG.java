@@ -9,7 +9,9 @@ public class UppgiftONSDAG {
 
 		String name = input.nextLine();
 		
+		System.out.println("age?");
 		
+		String age = input.nextLine();		
 
 	}
 
