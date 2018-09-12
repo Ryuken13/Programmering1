@@ -5,16 +5,16 @@ public class UppgiftONSDAG {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		
+
 		System.out.println("Vad heter du?");
 		String name = input.nextLine();
 
 		System.out.println("age?");
 		String age = input.nextLine();
-		
+
 		System.out.println("Addres?");
 		String adress = input.nextLine();
-	
+
 		System.out.println("Postnummer?");
 		String Postnummer = input.nextLine();
 
@@ -23,6 +23,13 @@ public class UppgiftONSDAG {
 
 		System.out.println("Telefonnummer?");
 		String telefonnummer = input.nextLine();
+		
+		System.out.println("Namn:"+"\t"+name);
+		System.out.println("Age:"+"\t"+age);
+		System.out.println("Adress:"+" "+adress);
+		System.out.println("\t"+Postnummer+" "+ort);
+		System.out.println("Telefon:"+telefonnummer); 
+		
 
 	}
 
