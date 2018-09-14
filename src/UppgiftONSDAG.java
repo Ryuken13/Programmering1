@@ -23,6 +23,13 @@ public class UppgiftONSDAG {
 
 		System.out.println("Telefonnummer?");
 		String telefonnummer = input.nextLine();
+		
+		System.out.println("Namn:" +" " + name);
+		System.out.println("Ålder:" + " " + age);
+		System.out.println("Adress:" + " " + adress);
+		System.out.println("\t" + Postnummer + " " + ort);
+		System.out.println("Telefonnummer:" + " " + telefonnummer);
+		
 
 	}
 
