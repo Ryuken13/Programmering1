@@ -12,7 +12,7 @@ public class UppgiftONSDAG {
 		System.out.println("age?");
 		String age = input.nextLine();
 		
-		System.out.println("Addres?");
+		System.out.println("Adress?");
 		String adress = input.nextLine();
 	
 		System.out.println("Postnummer?");
