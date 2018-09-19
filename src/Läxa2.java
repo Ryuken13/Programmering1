@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Läxa2 {
 
 	public static void main(String[] args) {
-
 		Scanner input = new Scanner(System.in);
 		System.out.println("Skriv in 10 siffor");
 
@@ -56,10 +55,8 @@ public class Läxa2 {
 		int tal10 = input.nextInt();
 		if (tal10 > max) {
 			max = tal10;
-
 			System.out.println("Minsta talet" + min);
-			System.out.println("Minsta talet" + max);
-
+			System.out.println("Största talet" + max);
 			int summa = (tal1 + tal2 + tal3 + tal4 + tal5 + tal6 + tal7 + tal8 + tal9 + tal10) / 10;
 			System.out.println("Medelvärdet" + summa);
 		}
